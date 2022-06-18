@@ -1,0 +1,4 @@
+module.exports = {  
+   mongoURILocal: "mongodb://127.0.0.1:27017/KamDekho",
+//    secretOrKey: "AAEBCB5D84C6F9EA423116145853E09F3743B97FD96A4B7ECC6D83977D255F8B"
+};
