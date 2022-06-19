@@ -25,11 +25,13 @@ app.use(cors()); // cors for all the routes of the application
 // DB Config:
 const db = require("./config/keys");
 
+const port = process.env.PORT || 4000 
+
 //Connect To MongoDB
 // mongoose.connect( db.mongoURILocal, {userNewUrlParser: true}, function(err){
     mongoose.connect("mongodb+srv://admin:NgjCANrBLjnCnjwy@cluster0.egqjw.mongodb.net/auth?retryWrites=true&w=majority").then(()=>{
-        app.listen(4000);
-        console.log('Database is connected! Listening to localhost 4000');
+        app.listen(port);
+        console.log('Database is connected! Listening to localhost ',port);
     }).catch((err) => console.log(err));
 
 //### Cron-Job Start
