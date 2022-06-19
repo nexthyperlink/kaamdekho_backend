@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 const NaukriDotCom = require("../../models/NaukriData");
 const Company_Model = require("../../models/company");
 const Company_Data_Model = require("../../models/companyData");
-const Job_Model = require("../../models/Job");
+const Job_Model = require("../../models/job");
 const Job_Data_Model = require("../../models/jobData");
 // const Job_Model1 = require("../../models/job1");
 const formatDateCollection =  (date) => {
