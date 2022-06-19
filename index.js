@@ -1,4 +1,4 @@
-import "reflect-metadata";
+// import "reflect-metadata";
 
 const express = require('express');
 const mongoose = require("mongoose");
